@@ -1,3 +1,7 @@
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+[![ha_version](https://img.shields.io/badge/Home%20Assistant-2023.0+-blue.svg)](https://www.home-assistant.io/)
+[![license](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 # 咖啡自由 (Kafree) — Home Assistant 自定义集成
 
 将「咖啡自由」微信小程序接入 Home Assistant，实现咖啡机的本地化监控与控制。
