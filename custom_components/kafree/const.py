@@ -1,0 +1,9 @@
+"""Constants for Kafree."""
+DOMAIN = "kafree"
+CONF_PHONE = "phone"
+CONF_TOKEN = "token"
+CONF_BASE_URL = "base_url"
+CONF_SN = "device_sn"
+CONF_SCAN_INTERVAL = "scan_interval"
+DEFAULT_BASE_URL = "https://kafree-app-cn.coffee-iot.com"
+DEFAULT_SCAN_INTERVAL = 300

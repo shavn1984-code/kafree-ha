@@ -1,0 +1,1 @@
+"""Binary sensor for Kafree."""
