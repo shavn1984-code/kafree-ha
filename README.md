@@ -159,7 +159,7 @@ mini-graph-card	制作杯数趋势图
 
 UI 配置代码
 <details> <summary>点击展开完整配置代码</summary>
-yaml
+
 type: vertical-stack
 cards:
   # ==================== 咖啡机状态可视化面板 ====================
@@ -436,6 +436,7 @@ cards:
     show:
       labels: true
     type: custom:mini-graph-card
+
 </details>
 📋 实体命名对照表
 中文名称	Entity ID
