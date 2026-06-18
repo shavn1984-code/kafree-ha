@@ -6,6 +6,12 @@
 
 将「咖啡自由」微信小程序接入 Home Assistant，实现咖啡机的本地化监控与控制。
 
+<img width="567" height="801" alt="main01" src="https://github.com/user-attachments/assets/0d1bd636-839c-4d20-b20c-4d4af9d7e097" />
+
+<img width="563" height="853" alt="main02" src="https://github.com/user-attachments/assets/3a9cf05f-6997-40c6-a2f3-b13eda1a500c" />
+
+
+
 ## ✨ 功能特性
 
 - ✅ 支持 21 个传感器数据采集
@@ -87,7 +93,7 @@
 ### 方法一：HACS 安装（推荐）
 
 1. 打开 HACS → 集成 → 右上角菜单 → 自定义存储库
-2. 添加此仓库地址，类别选择「集成」
+2. 添加此仓库地址https://github.com/shavn1984-code/kafree-ha/，类别选择「集成」
 3. 搜索 Kafree 并安装
 4. 重启 Home Assistant
 
@@ -109,7 +115,7 @@ git clone https://github.com/shavn1984-code/kafree.git custom_components/kafree
 | 参数 | 说明 |
 |------|------|
 | API Token | 通过抓包获取（见下文） |
-| API 地址 | `kafree-app-cn.coffee-iot.com`（一般不变） |
+| API 地址 | `kafree-app-cn.coffee-iot.com` |
 
 > 设备 SN、user_id 等参数自动从 API 获取，无需手动配置。
 
@@ -148,6 +154,9 @@ git clone https://github.com/shavn1984-code/kafree.git custom_components/kafree
 将背景图片放在 `/config/www/lovelace/image/` 目录下，命名为 `kafree.png`。
 
 > 💡 或在可视化面板中上传至媒体库，然后替换 `media_content_id`。
+
+<img width="440" height="440" alt="kafree" src="https://github.com/user-attachments/assets/4f0d3e6a-eb0d-44d4-afc9-e137e45f7344" />
+
 
 ### 完整配置代码
 
