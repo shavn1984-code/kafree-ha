@@ -37,8 +37,8 @@
 
 | 传感器 | 说明 |
 |--------|------|
-| `sensor.ka_pei_zi_you_ka_pei_ji_zhuang_tai` | 咖啡机状态（在线 / 休眠 / 离线） |
-| `sensor.ka_pei_zi_you_she_bei_zhuang_tai` | 设备状态（正常 / 休眠 / 缺料） |
+| `sensor.ka_pei_zi_you_ka_pei_ji_zhuang_tai` | 咖啡机状态（在线 / 休眠） |
+| `sensor.ka_pei_zi_you_she_bei_zhuang_tai` | 设备状态（正常 / 休眠 / 缺料 /离线） |
 | `sensor.ka_pei_zi_you_tong_suo` | 童锁状态（开启 / 关闭） |
 | `sensor.ka_pei_zi_you_she_bei_xiao_xi` | 设备消息通知 |
 
@@ -47,9 +47,9 @@
 | 传感器 | 说明 |
 |--------|------|
 | `sensor.ka_pei_zi_you_dang_qian_qing_ji_fen` | 当前清洁分（0-100） |
-| `sensor.ka_pei_zi_you_chong_pao_qi_qing_xi` | 冲泡器清洗进度 |
-| `sensor.ka_pei_zi_you_chu_gou_qing_xi` | 除垢清洗进度 |
-| `sensor.ka_pei_zi_you_nai_mo_qi_qing_xi` | 奶沫器清洗进度 |
+| `sensor.ka_pei_zi_you_chong_pao_qi_qing_xi` | 冲泡器清洗（0-100） |
+| `sensor.ka_pei_zi_you_chu_gou_qing_xi` | 除垢清洗（0-100） |
+| `sensor.ka_pei_zi_you_nai_mo_qi_qing_xi` | 奶沫器清洗（0-100） |
 
 ### 用量统计类
 
