@@ -99,6 +99,8 @@ class KafreeSensor(CoordinatorEntity, SensorEntity):
             v = dt[0].get("deviceStatus") if dt else None
             if v == "0":
                 return "正常"
+            elif v == "2":
+                return "离线"
             elif v == "6":
                 return "休眠"
             elif v in ("053", "05", "653"):
