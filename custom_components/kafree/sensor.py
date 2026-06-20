@@ -105,6 +105,10 @@ class KafreeSensor(CoordinatorEntity, SensorEntity):
                 return "休眠"
             elif v in ("053", "05", "653"):
                 return "缺料"
+            elif v == "65":
+                return "奶泡器缺失"
+            elif v == "55":
+                return "蓄水盘缺失"
             return v
         if tp in m:
             v, labels, fb = m[tp]
