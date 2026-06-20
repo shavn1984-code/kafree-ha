@@ -439,35 +439,6 @@ cards:
     type: custom:mini-graph-card
 ```
 
-## 📋 实体命名对照表
-
-| 中文名称 | Entity ID |
-|----------|-----------|
-| 咖啡机状态 | `sensor.ka_pei_zi_you_ka_pei_ji_zhuang_tai` |
-| 设备状态 | `sensor.ka_pei_zi_you_she_bei_zhuang_tai` |
-| 童锁 | `sensor.ka_pei_zi_you_tong_suo` |
-| 当前清洁分 | `sensor.ka_pei_zi_you_dang_qian_qing_ji_fen` |
-| 已制作杯数 | `sensor.ka_pei_zi_you_yi_zhi_zuo_bei_shu` |
-| 累计咖啡豆 | `sensor.ka_pei_zi_you_lei_ji_ka_pei_dou` |
-| 累计水量 | `sensor.ka_pei_zi_you_lei_ji_shui_liang` |
-| 累计牛奶 | `sensor.ka_pei_zi_you_lei_ji_niu_nai` |
-| 比咖啡店节省 | `sensor.ka_pei_zi_you_bi_ka_pei_dian_jie_sheng` |
-| 黑咖 | `sensor.ka_pei_zi_you_hei_ka` |
-| 奶咖 | `sensor.ka_pei_zi_you_nai_ka` |
-| 其他饮料 | `sensor.ka_pei_zi_you_qi_ta_yin_liao` |
-| 水箱 | `sensor.ka_pei_zi_you_shui_xiang` |
-| 水温 | `sensor.ka_pei_zi_you_shui_wen` |
-| 蓄水盘 | `sensor.ka_pei_zi_you_xu_shui_pan` |
-| 奶泡器 | `sensor.ka_pei_zi_you_nai_pao_qi` |
-| 豆仓 | `sensor.ka_pei_zi_you_dou_cang` |
-| 设备消息 | `sensor.ka_pei_zi_you_she_bei_xiao_xi` |
-| 奶沫器清洗 | `sensor.ka_pei_zi_you_nai_mo_qi_qing_xi` |
-| 冲泡器清洗 | `sensor.ka_pei_zi_you_chong_pao_qi_qing_xi` |
-| 除垢清洗 | `sensor.ka_pei_zi_you_chu_gou_qing_xi` |
-| 开机 | `button.ka_pei_zi_you_kai_ji` |
-| 关机 | `button.ka_pei_zi_you_guan_ji` |
-| 锁定 | `button.ka_pei_zi_you_suo_ding` |
-| 解锁 | `button.ka_pei_zi_you_jie_suo` |
 
 ## ❓ 常见问题
 
